@@ -93,4 +93,4 @@ export function pushProjectile() {
   projectileStorage.push(PROJECTILE)
 }
 
-window.onload = setInterval(() => { pushProjectile() }, 125)
+setInterval(() => { pushProjectile() }, 125)

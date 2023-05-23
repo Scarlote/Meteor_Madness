@@ -17,7 +17,7 @@ CONTEXT.imageSmoothingEnabled = false;
 
 /////////////////////////////////////////////////////
 
-function main() {
+window.onload = function main() {
   requestAnimationFrame(main)
   CONTEXT.clearRect(0, 0, CANVAS.width, CANVAS.height)
 
@@ -36,5 +36,3 @@ function main() {
 
   player.SHIP.update()
 }
-
-main()

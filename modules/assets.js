@@ -40,5 +40,5 @@ export function meteorExplodeSound() {
 export function meteorDamagedSound() {
   let sound = new Audio("./assets/sounds/METEOR_DAMAGED_SOUND.wav")
   sound.play()
-  sound.volume = 0.2
+  sound.volume = 0.1
 }

@@ -1,0 +1,49 @@
+:root {
+  --screen-size: 45rem;
+}
+
+* { 
+  margin: 0; 
+  font-family: Arial; 
+  box-sizing: border-box;
+}
+
+html { font-size: 10px; }
+
+body {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center; align-items: center;
+
+  background-color: #000000;
+}
+
+body .gameScreen {
+  position: relative;
+
+  width: var(--screen-size); height: var(--screen-size);
+
+  display: flex;
+  justify-content: center; align-items: start;
+}
+
+body .gameScreen .scoreBox {
+  position: absolute;
+  z-index: 1;
+
+  width: calc(var(--screen-size) / 4);
+  height: calc(var(--screen-size) / 4);
+
+  display: none;
+  justify-content: center; align-items: center;
+
+  font-size: 450%;
+  color: white;
+}
+
+body .gameScreen canvas {
+  position: absolute;
+
+  background-color: #283c64;
+}

@@ -28,23 +28,23 @@ FRAGMENT_SPRITE.src = "./assets/sprites/FRAGMENT_SPRITE.png"
 export function projectileSound() {
     let sound = new Audio("./assets/sounds/PROJECTILE_SOUND.mp3")
     sound.play()
-    sound.volume = 0.02
+    sound.volume = 0.3
 }
 
 export function meteorExplodeSound() {
     let sound = new Audio("./assets/sounds/EXPLOSION_SOUND.wav")
     sound.play()
-    sound.volume = 0.2
+    sound.volume = 0.3
 }
 
 export function meteorDamagedSound() {
   let sound = new Audio("./assets/sounds/METEOR_DAMAGED_SOUND.wav")
   sound.play()
-  sound.volume = 0.2
+  sound.volume = 0.3
 }
 
 export function backgroundMusic() {
   let sound = new Audio("./assets/sounds/theme.mp3")
   sound.play()
-  sound.volume = 0.6
+  sound.volume = 0.5
 }

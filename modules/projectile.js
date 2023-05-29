@@ -94,3 +94,5 @@ export function pushProjectile() {
 }
 
 setInterval(() => { pushProjectile() }, 125)
+
+assets.backgroundMusic()

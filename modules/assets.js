@@ -26,7 +26,7 @@ FRAGMENT_SPRITE.src = "./assets/sprites/FRAGMENT_SPRITE.png"
 ///////////////////////////////////////////// AUDIOS
 
 export function projectileSound() {
-    let sound = new Audio("./assets/sounds/SHOOT_SOUND.wav")
+    let sound = new Audio("./assets/sounds/PROJECTILE_SOUND.mp3")
     sound.play()
     sound.volume = 0.02
 }

@@ -46,5 +46,5 @@ export function meteorDamagedSound() {
 export function backgroundMusic() {
   let sound = new Audio("./assets/sounds/theme.mp3")
   sound.play()
-  sound.volume = 0.5
+  sound.volume = 0.75
 }

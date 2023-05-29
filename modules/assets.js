@@ -28,7 +28,7 @@ FRAGMENT_SPRITE.src = "./assets/sprites/FRAGMENT_SPRITE.png"
 export function projectileSound() {
     let sound = new Audio("./assets/sounds/PROJECTILE_SOUND.mp3")
     sound.play()
-    sound.volume = 0.3
+    sound.volume = 0.15
 }
 
 export function meteorExplodeSound() {

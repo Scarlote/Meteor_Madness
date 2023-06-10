@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FunBlast | Home</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    let x = 0; let y = 0
+      setInterval(function() {
+      x += 0.1, y += 0.1
+      document.body.style.backgroundPositionX = x + "px"
+      document.body.style.backgroundPositionY = y + "px"
+    }, 0.1)
+  </script>
+  
+</head>
+<body id="">
+
+  <header>
+    <h1>FunBlast</h1>
+    <div class="wallet">
+      <p> <span style="color: greenyellow;">$</span> 0.00</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="menu">
+      <p id="how-to-play">How to Earn</p>
+      <p id="reedem">Reedem</p>
+      <p id="leaderboard">Leaderboard</p>
+      <p id="team">Team</p>
+    </div>
+  </nav>
+
+  <section class="top ads">
+    <div class="ad">
+      <img class="img-ad" src="https://cdn-wordpress.buildbox.com/wp-content/uploads/2023/01/BB_Blog_GooglePlay_Leaderboard_908x329-copy.jpg" alt="Google Ad">
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="slider">
+
+      <div class="slide" id="mm-slide">
+        <div class="screen main" id="mm-main">
+          <button id="mm-start-btn">START</button><br>
+          <button id="mm-fullscreen-btn">START IN FULL SCREEN</button>
+        </div>
+        <div class="screen loading" id="mm-loading">
+          <div class="loader-container"><div class="loader" id="mm-loader"></div></div>
+        </div>
+        <div class="screen over" id="mm-over">
+          <button id="mm-restart-btn">RESTART</button><br>
+          <button id="mm-bonus-btn">COLLECT POINTS</button>
+        </div>
+
+        <div class="score-box" id="score-box"> <p id="score">0</p> </div>
+      
+        <canvas id="mm-canvas"></canvas>
+      </div>
+  
+    <!-- ////////////////////////////////////////////////////////////// -->
+  
+      <div class="slide" id="dd-slide" style="display: none;">
+        <div class="screen main" id="dd-main">
+          <button id="dd-start-btn">START</button><br>
+          <button id="dd-fullscreen-btn">START IN FULL SCREEN</button>
+        </div>
+        <div class="screen loading" id="dd-loading">
+          <div class="loader-container"><div class="loader" id="dd-loader"></div></div>
+        </div>
+        <div class="screen over" id="dd-over">
+          <button id="dd-restart-btn">RESTART</button><br>
+          <button id="dd-bonus-btn">COLLECT POINTS</button>
+        </div>
+    
+        <div class="score-box" id="score-box"> <p id="score">0</p> </div>
+    
+        <canvas id="dd-canvas"></canvas>
+      </div>
+    
+    </div>
+  </section>
+
+  <section class="ads">
+    <div class="ad">
+      <img class="img-ad" src="https://cdn-wordpress.buildbox.com/wp-content/uploads/2023/01/BB_Blog_GooglePlay_Leaderboard_908x329-copy.jpg" alt="Google Ad">
+    </div>
+  </section>
+
+  <footer>
+    <div class="information">
+      <p>©️ 2023 FunBlast. Todos los derechos reservados.</p>
+    </div><br><br>
+    <div class="social">
+      <img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/facebook_online_social_media-64.png" alt="Facebook">
+      <img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/youtube_online_social_media-64.png" alt="Youtube">
+      <img src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/instagram_online_social_media-64.png" alt="Instagram">
+    </div>
+  </footer>
+
+  <!-- ////////// SCRIPTS ////////// -->
+    
+  <script type="module" src="../Meteor_Madness/main.js"></script>
+  <script type="module" src="../Dare_Drop/main.js"></script>
+  
+</body>
+</html>

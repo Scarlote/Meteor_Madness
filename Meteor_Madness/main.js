@@ -322,7 +322,6 @@ function mmStart() {
     window.projectileInterval = setInterval(() => { pushProjectile() }, 140) 
     window.bgStarInterval = setInterval(() => { pushBackgroundStar() }, 500)
     window.starInterval = setInterval(() => { pushStar() }, 325)
-    if (SHIP.y >= CANVAS.height - SHIP.h * 2) { SHIP.vy -= 1 } else { SHIP.vy = 0 }
   }, 3500)
 }
 

@@ -9,8 +9,6 @@ const CONTEXT = CANVAS.getContext("2d")
 
 CANVAS.width = window.innerHeight / 1.5, CANVAS.height = window.innerHeight / 1.5
 
-
-
 /////////////////////////////////////////////////////
 
 let alive = true
@@ -18,7 +16,7 @@ let audioFlag = false
 
 class Ship {
   constructor() {
-    this.x = CANVAS.width / 2 - CANVAS.width * 0.1 / 2, this.y = CANVAS.height
+    this.x = CANVAS.width / 2 - CANVAS.width * 0.1 / 2, this.y = CANVAS.height - CANVAS.height * 0.1 * 2
     this.vx = 0, this.vy = 0
     this.w = CANVAS.width * 0.1, this.h = CANVAS.height * 0.1
     this.c = "white"

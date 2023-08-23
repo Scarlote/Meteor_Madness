@@ -3,7 +3,7 @@
   src: url('../fonts/disposable-droid-bb-font/Disposabledroidbb-y3qM.otf');
 }
 
-* { margin: 0; font-family: Arial; box-sizing: border-box; }
+* { margin: 0; font-family: pixel; box-sizing: border-box; }
 
 html { font-size: 10px; }
 
@@ -67,7 +67,7 @@ body nav .menu p {
   margin: 0 2rem 0 2rem;
 }
 
-#how-to-play { background-color: blue; box-shadow: 0px 10px 0px red; }
+#how-to-play { background-color: blue; box-shadow: 0px 10px 0px #000088; }
 #reedem { background-color: purple; box-shadow: 0px 10px 0px rgb(92, 0, 92); }
 #leaderboard { background-color: goldenrod; box-shadow: 0px 10px 0px rgb(134, 112, 0); }
 #team { background-color: green ; box-shadow: 0px 10px 0px #005000; }

@@ -3,7 +3,7 @@
   src: url('../fonts/disposable-droid-bb-font/Disposabledroidbb-y3qM.otf');
 }
 
-* { margin: 0; font-family: pixel; box-sizing: border-box; }
+* { margin: 0; font-family: Arial; box-sizing: border-box; }
 
 html { font-size: 10px; }
 
